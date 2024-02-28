@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Noto+Sans+Thai&display=swap');
+
+.head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+.head img {
+  display: flex;
+  width: 5vh;
+  padding: 10px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.container {
+  width: 220px;
+  height: 150px;
+  padding: 18px;
+  margin: 9px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: gray;
+  color: whitesmoke;
+}
+
+.container:hover {
+  padding: 23px;
+  background-color: #333;
+  color: gold;
+  transition: all 0.2s;
+}
